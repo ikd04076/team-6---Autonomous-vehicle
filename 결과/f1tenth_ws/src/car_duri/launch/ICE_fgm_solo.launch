@@ -1,0 +1,13 @@
+<launch>
+
+    <include file="$(find f1tenth_gym_ros)/launch/gym_bridge_host.launch" />
+<!-- carminator라는 노드를 만들고 카두리 패키지에서 fgm 률을 실행시킨다. -->
+    <node name="Carminator" pkg="car_duri" type="P.P+FGM.py" output="screen">
+        <remap from="/ICE/drive" to="/drive" />
+        <remap from="/ICE/odom" to="/odom" />
+        <remap from="/ICE/scan" to="/scan" />
+
+    </node>
+
+</launch>
+

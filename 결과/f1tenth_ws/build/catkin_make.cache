@@ -1,0 +1,2 @@
+car_duri:f1tenth_gym_ros
+-DCATKIN_DEVEL_PREFIX=/home/jiwon/f1tenth_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jiwon/f1tenth_ws/install -G Unix Makefiles

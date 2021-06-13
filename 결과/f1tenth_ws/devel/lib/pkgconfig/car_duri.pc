@@ -1,0 +1,8 @@
+prefix=/home/jiwon/f1tenth_ws/devel
+
+Name: car_duri
+Description: Description of car_duri
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
